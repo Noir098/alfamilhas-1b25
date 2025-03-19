@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
+
+
+body{
+    font-family: 'Big Shoulders Stencil', monospace;
+    background: color #000000;;
+}
+section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.menu ul li{
+    display: inline-block;
+}
