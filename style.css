@@ -1,78 +1,155 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
 
 
-body{
+body {
     font-family: 'Big Shoulders Stencil', monospace;
-    background: color #000000;;
+    background: color #000000;
+    
 }
-section{
+
+section {
     max-width: 1140px;
     margin: 0 auto;
 }
-.menu ul li{
+
+.menu ul li {
     display: inline-block;
     padding: 20px;
     font-size: 20px;
 }
-.logotipo img{
+
+.logotipo img {
     width: 200px;
     border-radius: 20px;
 }
-.logotipo{
+
+.logotipo {
     float: left;
 }
-.menu li a{
+
+.menu li a {
     color: #000000;
     text-decoration: none;
-    
+
 }
-.menu li a:hover{
-   color: rgb(82, 4, 4);
- }
- .menu{
+
+.menu li a:hover {
+    color: rgb(82, 4, 4);
+}
+
+.menu {
     padding-top: 20px;
- }
-.slider img{
+}
+
+.slider img {
     width: 100%;
 }
-header{
+
+header {
     padding: 10px;
     height: 100px;
 }
-.item{
+
+.item {
     display: inline-block;
-    width:300px ;
+    width: 300px;
     padding: 10px;
     background-color: rgb(109, 10, 109);
     margin: 10px 10px;
 }
-.decricao{
+
+.decricao {
     padding: 10px 20px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     color: #444;
 }
-a{
+
+a {
     text-decoration: none;
 }
-footer div{
+
+footer div {
     width: 33%;
-    display:inline-block ;
+    display: inline-block;
 }
-footer iframe{
+
+footer iframe {
     width: 100% !important;
 }
-footer{
+
+footer {
     color: #444;
+    padding: 40px 0;
 }
-.formulario input{
+
+.formulario input {
     width: 100%;
     height: 40px;
     margin: 10px;
 }
-.contato p{
+
+.contato p {
     font-size: 20px;
     padding: 10px;
     color: #fff;
+}
+
+.depoimentos {
+    text-align: center;
+}
+
+.depoimentos h3 {
+    color: #444;
+    font-weight: bold;
+}
+
+.depoimentos h2 {
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.depoimentos img {
+    width: 100px;
+    border-radius: 50px;
+    border: 5px solid #f4f4f4;
+}
+
+.depoimentos .decricao {
+    font-size: 15px;
+    font-weight: normal;
+    padding: 30px 0;
+}
+
+.depoimentos .nome {
+    color: #444;
+    font-weight: bold;
+}
+.sobre{
+    background:url('img/escritorio.png') 
+    50% / cover no-repeat fixed;
+}
+.sobre .texto{
+    width: 50%;
+    background-color:#444;
+    color: #fff;
+    padding: 40px;
+    height: 270px;
+
+}
+.texto h2{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.texto h2, .texto p{
+    max-width: 570px;
+    float: right;
+    clear: both;
+}
+.viagens{
+    padding: 40px 0;
 }
